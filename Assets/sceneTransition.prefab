@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4260617072212774248}
   - component: {fileID: 6817969804394170441}
   - component: {fileID: 3617961743350733164}
+  - component: {fileID: 4163990820683261404}
   m_Layer: 0
   m_Name: sceneTransition
   m_TagString: Untagged
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e000cf84e00aa6f4aac76474f809a621, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -123,3 +124,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a2ccdd663d4dbbb08b3b3afa433d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4163990820683261404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821588809795978511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871a2013276457a4fb15c959ede02f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 40
+  rotationAxis: {x: 0.5, y: 1, z: 0.5}
+  randomizeInitialRotation: 0
+  reverseRotation: 0
